@@ -1,12 +1,12 @@
 const translations = {
   en: {
     translation: {
-      test:"test",
+      Home:"Home",
     }
   },
   tr: {
     translation: {
-      test:"deneme",
+      Home:"Anasayfa",
     }
   },
 };

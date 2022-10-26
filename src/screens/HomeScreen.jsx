@@ -4,7 +4,7 @@ import { withTranslation } from "react-i18next";
 const HomeScreen = ({ t }) => {
     return (
         <div>
-            {t("test")}
+            {t("Home")}
         </div>
     );
 };

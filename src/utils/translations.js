@@ -6,7 +6,7 @@ const translations = {
   },
   tr: {
     translation: {
-      test:"test",
+      test:"deneme",
     }
   },
 };

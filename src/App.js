@@ -1,10 +1,11 @@
+import { Route, Routes } from "react-router-dom";
+import HomeScreen from "./screens/HomeScreen";
+
 function App() {
   return (
-    <div className="uk-section">
-      <div className="uk-container">
-        Hello World
-      </div>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomeScreen/>}/>
+    </Routes>
   );
 }
 

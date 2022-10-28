@@ -52,4 +52,29 @@
 // Miscellaneous
 // ========================================================================
 
-.hook-section-misc() {}
+.hook-section-misc() {
+    .navbar-bg{
+        background-color: #fff;
+        border-bottom: 1px solid #e3e3e3;
+    }
+    .link{
+        a {
+            display: inline-block;
+            text-decoration: none;
+        }
+        
+        a::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #0774B9;
+            transition: width .3s;
+        }
+        
+        a:hover::after {
+            width: 100%;
+            //transition: width .3s;
+        }
+    }
+}

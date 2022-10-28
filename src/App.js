@@ -1,8 +1,9 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import HomeScreen from "./screens/HomeScreen";
+import Navbar from "./components/Common/Navbar";
 
-function App() {
+function App(lang) {
   function ScrollToTop() {
     const { pathname } = useLocation();
     useEffect(() => {
@@ -12,6 +13,7 @@ function App() {
   }
   return (
     <>
+      <Navbar/>
       <ScrollToTop/>
       <Routes>
         <Route path="/" element={<HomeScreen/>}/>

@@ -1,4 +1,4 @@
-/*! UIkit 3.15.11 | https://www.getuikit.com | (c) 2014 - 2022 YOOtheme | MIT License */
+/*! UIkit 3.10.1 | https://www.getuikit.com | (c) 2014 - 2022 YOOtheme | MIT License */
 
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
@@ -2950,7 +2950,7 @@
     UIkit.data = '__uikit__';
     UIkit.prefix = 'uk-';
     UIkit.options = {};
-    UIkit.version = '3.15.11';
+    UIkit.version = '3.10.1';
 
     globalAPI(UIkit);
     hooksAPI(UIkit);

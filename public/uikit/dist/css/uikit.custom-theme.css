@@ -2346,6 +2346,27 @@ select.uk-form-width-xsmall {
 .link a:hover::after {
   width: 100%;
 }
+.line-dotnav {
+  counter-reset: slider-count;
+}
+.line-dotnav li {
+  cursor: pointer;
+  position: relative;
+}
+.line-dotnav li a {
+  width: 15px;
+  height: 2px;
+  border-radius: 0;
+  border: none;
+  background-color: #fff;
+}
+.line-dotnav li.uk-active a {
+  background-color: #0774B9;
+  width: 30px;
+}
+.line-dotnav li a:hover {
+  background-color: #0774B9;
+}
 /* ========================================================================
    Component: Container
  ========================================================================== */

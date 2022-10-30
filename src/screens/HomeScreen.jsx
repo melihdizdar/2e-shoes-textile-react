@@ -1,11 +1,12 @@
 import React from "react";
 import { withTranslation } from "react-i18next";
+import PromoSlider from "../components/Home/PromoSlider";
 
 const HomeScreen = ({ t }) => {
     return (
-        <div>
-            {t("Home")}
-        </div>
+        <>
+            <PromoSlider/>
+        </>
     );
 };
 
